@@ -30,7 +30,7 @@ body{
     background-color: var(--background);
   }
 
-  .teste{
+  .card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -45,6 +45,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 4.6rem;
+    height: 100vh;
   }
 
   form{
@@ -263,7 +264,7 @@ body{
     .container{
         margin: 0 16rem;
     }
-    .teste{
+    .card{
         background-color: var(--form-background);
         width: 520px;
         margin: 0 3rem;
@@ -276,7 +277,7 @@ body{
     .container{
         margin: 0 9rem;
     }
-    .teste{
+    .card{
         background-color: var(--form-background);
         width: 520px;
         margin: 0 3rem;
@@ -289,7 +290,7 @@ body{
     .container{
         margin: 0;
     }
-    .teste{
+    .card{
         background-color: var(--form-background);
         width: 520px;
         margin: 0 3rem;
@@ -302,7 +303,7 @@ body{
     .container{
         margin: 0;
     }
-    .teste{
+    .card{
         background-color: var(--form-background);
         width: 480px;
         margin: 0 3rem;
@@ -316,7 +317,7 @@ body{
     .container{
         margin: 0;
     }
-    .teste{
+    .card{
         background-color: var(--form-background);
         width: 480px;
         margin: 0 3rem;
@@ -326,7 +327,7 @@ body{
     }
   }
   @media (max-width:433px) {
-    .teste{
+    .card{
         background-color: transparent;
         width: 400px;
         margin: 0;
