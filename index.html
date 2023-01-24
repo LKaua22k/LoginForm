@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Link Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <!-- Titulo da pagina -->
+    <title>Login Form Css</title>
+
+    <!--Link favicon -->
+    <link rel="shortcut icon" href="./assets/svg/favicon.ico" type="image/x-icon">
+
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="./assets/svg/logo.svg" alt="" srcset="">
+    </header>
+    
+<div class="teste">
+    <form action="#">
+        <div class="form__header">
+            <div class="form__header__title">
+                <img src="./assets/svg/log-in.svg" alt="" srcset="">
+                <legend>Faça seu login</legend>
+            </div>
+            <p class="form__header__text">Entre com suas informações de cadastro.</p>
+        </div>
+        <div class="inputs">
+
+        <div class="form__input">
+            <label for="email">E-mail</label>
+            <div class="form__box">
+                <img  class="img__email" src="./assets/svg/mail.svg" alt="">
+                <input type="email" name="e-mail" id="email" required>
+            </div>
+        </div>
+
+        <div class="form__input">
+            <label for="Senha">Senha</label>
+            <div class="form__box"> 
+                <img class="img__password" src="./assets/svg/lock.svg" alt="">
+                <input type="password" name="password" id="Senha" required>
+                <img class="img__right" src="./assets/svg/eye.svg" alt="" srcset="">
+            </div>
+        </div>
+        </div>
+
+        <div class="help">
+            <div class="help__input">
+            <input type="checkbox" name="ok" id="Ok">
+            <label for="Ok">Lembre-me</label>
+            </div>
+            <a href="">Esqueci minha senha</a>
+        </div>
+
+        <button type="submit">Entrar</button>
+
+        <p class="form__text">Não tem conta?<a class="form__link" href="">Registre-se</a></p>
+
+    </form>
+</div>
+    </div>
+
+    <div class="bg-image">
+        <img class="img" src="./assets/img/side-image-2x.jpg" alt="">
+    </div>
+
+</body>
+</html>
