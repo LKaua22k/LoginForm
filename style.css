@@ -214,6 +214,12 @@ body{
     font-family: var(--Fonte-primary);
     font-size:1.4rem;
     font-weight: 600;
+    transition: 0.2s;
+  }
+
+  .help a:hover{
+    color: #e3991a;
+    transition: 0.2s;
   }
   
   
@@ -231,9 +237,9 @@ body{
     transition: 0.5s;
   }
   button:hover{
-    background-color: var(--button-color);
-    color: var(--primary-color);
-    border: 1px solid var(--primary-color);
+    background-color: #e3991a;
+    color: var(--button-color);
+    border: 1px solid #e3991a;
     transition: 0.5s;
   }
   
@@ -248,7 +254,15 @@ body{
     color: var(--primary-color);
     text-decoration: none;
     font-weight: 600;
+    transition: 0.2s;
   }
+
+  .form__link:hover{
+    color:#e3991a;
+    transition: 0.2s ;
+  }
+
+
 
   .bg-image{
     display: flex;
